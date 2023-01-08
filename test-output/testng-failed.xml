@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="BrowserName" value="chrome"/>
+    <classes>
+      <class name="Module1_ProfilePage_Test.PolicyBazarTest">
+        <methods>
+          <include name="TC106_get_city"/>
+          <include name="TC103_Verify_Date_of_Birth"/>
+          <include name="Sign_In_to_Application"/>
+          <include name="TC102_Verify_Email_Address"/>
+          <include name="TC100_Verify_Profile_Name"/>
+          <include name="Close_Application"/>
+          <include name="TC104_get_Annual_Income"/>
+          <include name="TC105_get_Marital_Status"/>
+          <include name="TC101_Verify_Mobile_Number"/>
+          <include name="SignOut_From_Application"/>
+          <include name="open_Application"/>
+        </methods>
+      </class> <!-- Module1_ProfilePage_Test.PolicyBazarTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
